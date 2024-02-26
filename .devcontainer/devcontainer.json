@@ -1,0 +1,30 @@
+{
+	"name": "weblatex",
+	"image": "flufflescure/dev-env:latest", 
+	"remoteUser": "root", 
+	"features": {},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"editor.quickSuggestions": {
+					"other": true,
+					"comments": true,
+					"strings": false
+				},
+				"editor.suggest": {
+					"showWords": false,
+					"showKeywords": true
+				},
+				"editor.formatOnSave": true,
+				"code-runner.showExecutionMessage": true,
+				"hsnips.hsnipsPath": "/root/.config/HyperSnips",
+				"files.autoSaveDelay": 300000
+			},
+			"extensions": [
+				"GitHub.copilot",
+				"draivin.hsnips",
+				"ms-vsliveshare.vsliveshare"
+			]
+		}
+	}
+}
