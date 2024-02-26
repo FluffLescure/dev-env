@@ -1,5 +1,7 @@
 {
     "ada.scenarioVariables": {
         "BUILD": "PRODUCTION"
-    }
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showRunIconInEditorTitleMenu": true
 }

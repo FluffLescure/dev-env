@@ -31,8 +31,8 @@ W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 D ada.ads		20220819080952 76789da1 ada%s
 D a-except.ads		20220819080952 2a7d8d70 ada.exceptions%s
 D a-unccon.ads		20220819080952 0e9b276f ada.unchecked_conversion%s
-D b__hello_world.ads	20240226114659 e084fc35 ada_main%s
-D b__hello_world.adb	20240226114659 366cca63 ada_main%b
+D b__hello_world.ads	20240226144725 e084fc35 ada_main%s
+D b__hello_world.adb	20240226144725 366cca63 ada_main%b
 D system.ads		20220819080952 a2da961d system%s
 D s-parame.ads		20220819080952 d494a4a6 system.parameters%s
 D s-secsta.ads		20220819080952 62cd9202 system.secondary_stack%s

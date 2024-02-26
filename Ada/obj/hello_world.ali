@@ -24,7 +24,7 @@ D a-stuten.ads		20220819080952 33c54060 ada.strings.utf_encoding%s
 D a-tags.ads		20220819080952 9eaa38c6 ada.tags%s
 D a-textio.ads		20220819080952 deada98a ada.text_io%s
 D a-unccon.ads		20220819080952 0e9b276f ada.unchecked_conversion%s
-D hello_world.adb	20240226113825 4ede7be8 hello_world%b
+D hello_world.adb	20240226135840 4ede7be8 hello_world%b
 D interfac.ads		20220819080952 edec285f interfaces%s
 D i-cstrea.ads		20220819080952 e53d8b8e interfaces.c_streams%s
 D system.ads		20220819080952 a2da961d system%s

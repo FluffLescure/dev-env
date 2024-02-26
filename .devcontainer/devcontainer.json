@@ -16,10 +16,10 @@
 					"showKeywords": true
 				},
 				"editor.formatOnSave": true,
+				"editor.formatOnType": true,
 				"code-runner.showExecutionMessage": true,
 				"hsnips.hsnipsPath": "/root/.config/HyperSnips",
-				"files.autoSaveDelay": 300000,
-				"ada.projectFile": "$fileDirname/"
+				"files.autoSaveDelay": 300000
 			},
 			"extensions": [
 				"GitHub.copilot",
