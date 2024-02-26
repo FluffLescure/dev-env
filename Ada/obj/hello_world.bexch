@@ -1,0 +1,18 @@
+[GENERATED OBJECT FILE]
+b__hello_world.o
+[PROJECT FILES]
+/workspaces/dev-env/Ada/hello_world.gpr
+20240226114648 03f6008af6c400b846741969a5980a92
+[BOUND OBJECT FILES]
+/workspaces/dev-env/Ada/obj/hello_world.o
+[GENERATED SOURCE FILES]
+b__hello_world.ads
+b__hello_world.adb
+b__hello_world.ali
+[RESULTING OPTIONS]
+-L/workspaces/dev-env/Ada/obj/
+-L/workspaces/dev-env/Ada/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/12/adalib/
+-shared
+-lgnat-12
+-ldl

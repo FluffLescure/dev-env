@@ -1,0 +1,63 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile Ada Project",
+            "type": "shell",
+            "command": "gnatmake",
+            "args": [
+                "-P",
+                "${fileDirname}/*.gpr"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent",
+                "panel": "shared"
+            },
+            "problemMatcher": {
+                "owner": "ada",
+                "fileLocation": [
+                    "relative",
+                    "${fileDirname}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        {
+            "label": "Run Ada Program",
+            "type": "shell",
+            "command": "./*",
+            "dependsOn": [
+                "Compile Ada Project"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "type": "ada",
+            "configuration": {
+                "kind": "buildProject",
+                "projectFile": "${fileDirname}/*.gpr",
+                "args": []
+            },
+            "problemMatcher": [
+                "$ada"
+            ],
+            "group": "build",
+            "label": "ada: Build current project"
+        }
+    ]
+}

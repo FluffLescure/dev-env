@@ -1,7 +1,7 @@
 {
 	"name": "weblatex",
-	"image": "flufflescure/dev-env:latest", 
-	"remoteUser": "root", 
+	"image": "flufflescure/dev-env:latest",
+	"remoteUser": "root",
 	"features": {},
 	"customizations": {
 		"vscode": {
@@ -18,12 +18,15 @@
 				"editor.formatOnSave": true,
 				"code-runner.showExecutionMessage": true,
 				"hsnips.hsnipsPath": "/root/.config/HyperSnips",
-				"files.autoSaveDelay": 300000
+				"files.autoSaveDelay": 300000,
+				"ada.projectFile": "$fileDirname/"
 			},
 			"extensions": [
 				"GitHub.copilot",
 				"draivin.hsnips",
-				"ms-vsliveshare.vsliveshare"
+				"ms-vsliveshare.vsliveshare",
+				"adacore.ada",
+				"adacore.ada-debug"
 			]
 		}
 	}
